@@ -5,3 +5,37 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav img{
+    width: 30vh;
+    height: 15vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.images-logos img{
+    display: flex;
+    flex-direction: column;
+    width: 72vh;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
